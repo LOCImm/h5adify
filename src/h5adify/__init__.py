@@ -1,7 +1,13 @@
-"""h5adify public API."""
+from .geo import GEO
+from .cellxgene import CellxGene
+from .broad_scp import BroadSCP
+from .ema_biostudies import EMABioStudies
+from .ucsc_cellbrowser import UCSCCellBrowser
 
-from .highlevel import download, batch_download
-from .merge import merge_h5ads
-
-__all__ = ["download", "batch_download", "merge_h5ads"]
-__version__ = "0.1.0"
+SOURCES = {
+    "geo": GEO(),
+    "cellxgene": CellxGene(),
+    "scp": BroadSCP(),
+    "ema": EMABioStudies(),
+    "ucsc": UCSCCellBrowser(),
+}
