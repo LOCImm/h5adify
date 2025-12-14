@@ -23,6 +23,18 @@ source .venv/bin/activate
 pip install -U pip
 pip install -e .          # core
 pip install -e ".[sodb]"  # optional SODB via pysodb
+
+If you are behind a firewall or `pip` cannot find a `pysodb` wheel, install it directly from GitHub:
+
+```bash
+pip install "git+https://github.com/TencentAILabHealthcare/pysodb.git"
+```
+
+Then reinstall h5adify:
+
+```bash
+pip install -e .
+```
 pip install -e ".[docs]"  # docs build dependencies
 ```
 
@@ -32,6 +44,15 @@ pip install -e ".[docs]"  # docs build dependencies
 ```bash
 h5adify search geo --query "human brain spatial transcriptomics" --max-results 20
 h5adify search cellxgene --query "glioblastoma" --max-results 10
+
+> **CELLxGENE API timeouts**: if `h5adify search cellxgene ...` times out on your network, increase the read timeout and retries:
+
+```bash
+export H5ADIFY_READ_TIMEOUT=300
+export H5ADIFY_HTTP_RETRIES=8
+export H5ADIFY_HTTP_BACKOFF=0.8
+```
+
 h5adify search sodb --query "brain" --max-results 20   # requires pysodb
 ```
 
