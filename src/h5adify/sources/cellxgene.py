@@ -26,13 +26,50 @@ class CellxGeneSource:
         r = s.get(_CXG_SEARCH, params=params, timeout=get_timeout())
         r.raise_for_status()
         js = r.json()
-        hits = js.get("datasets", js.get("data", []))
+        # Cellxgene API responses differ by endpoint/version:
+        # - sometimes a dict: {"datasets":[...]} or {"data":[...]} or {"hits":[...]}
+        # - sometimes a plain list: [{...}, {...}]
+        if isinstance(js, list):
+            hits = js
+        elif isinstance(js, dict):
+            hits = js.get("datasets") or js.get("data") or js.get("hits") or []
+        else:
+            hits = []
+        
         out: List[SearchResult] = []
         for d in hits[:max_results]:
-            did = d.get("id") or d.get("dataset_id") or ""
-            title = d.get("title") or d.get("name") or did
-            url = d.get("collection_url") or d.get("explorer_url") or ""
-            out.append(SearchResult(source=self.name, dataset_id=str(did), title=str(title), url=str(url)))
+            # Defensive: sometimes elements are not dicts
+            if not isinstance(d, dict):
+                continue
+        
+            did = d.get("id") or d.get("dataset_id") or d.get("datasetId") or ""
+        
+            title = d.get("title") or d.get("name") or d.get("dataset_title") or did
+        
+            # URLs vary a lot across CXG endpoints
+            url = (
+                d.get("collection_url")
+                or d.get("explorer_url")
+                or d.get("url")
+                or d.get("link")
+                or ""
+            )
+        
+            # Sometimes URLs are nested
+            if not url and isinstance(d.get("collection"), dict):
+                url = d["collection"].get("collection_url") or d["collection"].get("url") or ""
+            if not url and isinstance(d.get("explorer"), dict):
+                url = d["explorer"].get("url") or ""
+        
+            out.append(
+                SearchResult(
+                    source=self.name,
+                    dataset_id=str(did),
+                    title=str(title),
+                    url=str(url),
+                )
+            )
+        
         return out
 
     def download(
