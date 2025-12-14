@@ -1,18 +1,23 @@
 import os
 import sys
-from datetime import datetime
+from pathlib import Path
+
+# Ensure src/ is importable (works even if install step changes)
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / "src"
+sys.path.insert(0, str(SRC))
 
 project = "h5adify"
-author = "h5adify contributors"
-copyright = f"{datetime.now().year}, {author}"
 
-extensions = ["myst_parser"]
-myst_enable_extensions = ["colon_fence", "deflist"]
+extensions = [
+    "myst_parser",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.napoleon",
+]
 
-templates_path = ["_templates"]
-exclude_patterns = ["_build"]
-
-html_theme = "sphinx_rtd_theme"
-html_static_path = ["_static"]
-
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
+# If you use Markdown docs
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
+}
+root_doc = "index"
