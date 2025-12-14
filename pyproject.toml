@@ -33,10 +33,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-sodb = ["pysodb>=0.1.3"]
+sodb = ["pysodb @ git+https://github.com/TencentAILabHealthcare/pysodb.git"]
 dev = ["pytest>=7.4", "ruff>=0.5", "mypy>=1.8"]
 docs = [
-  "sphinx>=7.2,<9",
+  "sphinx>=7.2",
   "myst-parser>=2.0",
   "sphinx-rtd-theme>=2.0",
 ]
