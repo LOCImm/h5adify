@@ -121,6 +121,13 @@ h5adify batch --ids geo:GSE229409 \
               --merge-out data/out/merged.h5ad
 ```
 
+## 5) Provide a manifest of a list of h5ad files
+```bash
+h5adify manifest --root data/stereo_seq_mouse_embryo/ \
+                 --out data/stereo_seq_mouse_embryo/out
+```
+It gives a `.csv` and `.jsonl` files, allowing to analyze the metadata of a large list of samples.
+
 ### Standardized metadata (`.obs`)
 
 By default, h5adify tries to fill a standard set of .obs fields where possible, e.g.:
