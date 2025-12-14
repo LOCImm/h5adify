@@ -11,7 +11,7 @@
 `h5adify` is a small Python library + CLI to **search**, **download**, and **convert** public single-cell / spatial datasets into **standardized `.h5ad` (AnnData)** with consistent metadata fields (`.obs`).  
 It can also **merge** multiple datasets (even across sources) into a single `.h5ad`.
 
-> **Best-effort by design**: public portals vary wildly. Some provide direct `.h5ad`, others provide 10x MTX/H5, others provide Seurat `.rds`, and many clinical datasets are controlled-access. `h5adify` focuses on workflows that can be automated reliably without proprietary tooling.
+> **Best-effort by design**: public portals vary wildly. Some provide direct `.h5ad`, others provide 10x MTX/H5 and many clinical datasets are controlled-access. `h5adify` focuses on workflows that can be automated reliably without proprietary tooling being able to homogenously, automatically and download and annotate a very large number of datasets.
 
 ---
 
