@@ -121,7 +121,7 @@ h5adify batch --ids geo:GSE229409 \
               --merge-out data/out/merged.h5ad
 ```
 
-## 5) Provide a manifest of a list of h5ad files
+### 5) Provide a manifest of a list of h5ad files
 ```bash
 h5adify manifest --root data/stereo_seq_mouse_embryo/ \
                  --out data/stereo_seq_mouse_embryo/out
