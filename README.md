@@ -54,11 +54,13 @@ pip install -U pip
 ```bash
 pip install -e .          # core
 pip install -e ".[docs]"  # docs build dependencies (optional)
-
+```
 If pip fails (common behind firewalls / when wheels are missing), install pysodb directly from GitHub:
 ```bash
+
 pip install "git+https://github.com/TencentAILabHealthcare/pysodb.git"
 pip install -e ".[sodb]"
+```
 
 ## Quickstart (CLI)
 ### 1) Search datasets
