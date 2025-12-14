@@ -43,8 +43,171 @@ pip install -e ".[docs]"  # docs build dependencies
 ### 1) Search
 ```bash
 h5adify search geo --query "human brain spatial transcriptomics" --max-results 20
-h5adify search cellxgene --query "glioblastoma" --max-results 10
-
+```
+Output
+```bash
+{
+    "source": "cellxgene",
+    "dataset_id": "b58c19c6-bc2d-4461-b9bf-60fa2ac91479",
+    "title": "Fine needle aspirates of axillary lymph nodes before and after vaccination",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/b58c19c6-bc2d-4461-b9bf-60fa2ac91479.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "82691839-6879-4810-90f3-67e953f328a3",
+    "title": "Aortic cell types of ascending aorta",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/82691839-6879-4810-90f3-67e953f328a3.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "e2a00644-0a48-4815-ae87-d562045114f5",
+    "title": "Brain dataset",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/e2a00644-0a48-4815-ae87-d562045114f5.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "b57462e3-1df5-463a-a3fa-4d67b93ef087",
+    "title": "Spinal cord dataset",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/b57462e3-1df5-463a-a3fa-4d67b93ef087.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "9ac3d74d-1d94-4ff9-abf9-fe5abe4bd2a6",
+    "title": "Single-nucleus RNA-seq of the Mouse Kidney (Version 2.0)",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/9ac3d74d-1d94-4ff9-abf9-fe5abe4bd2a6.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "91f31e05-56d8-46fc-b408-d90c9228a81b",
+    "title": "Single-cell RNA-seq of the Adult Human Kidney (Version 2.0)",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/91f31e05-56d8-46fc-b408-d90c9228a81b.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "7ff0197b-d175-49bf-b4fa-150fe0995d93",
+    "title": "Single-nucleus RNA-seq of the Adult Human Kidney (Version 2.0)",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/7ff0197b-d175-49bf-b4fa-150fe0995d93.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "f760224a-fb9a-4dd2-9339-b72ee01e5825",
+    "title": "Bone",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/f760224a-fb9a-4dd2-9339-b72ee01e5825.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "f71eeea6-aa46-4d14-a53e-fb862806acee",
+    "title": "Colon",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/f71eeea6-aa46-4d14-a53e-fb862806acee.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "f69adac8-fc07-484f-9f17-9875958f56e4",
+    "title": "Uterus",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/f69adac8-fc07-484f-9f17-9875958f56e4.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "ed839584-54ea-4914-ab0d-4ecc5a649bf1",
+    "title": "Heart",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/ed839584-54ea-4914-ab0d-4ecc5a649bf1.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "dc7ba810-2668-4182-abcc-d97d25f9310c",
+    "title": "Skin",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/dc7ba810-2668-4182-abcc-d97d25f9310c.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "d3bbb7e6-40df-4a4f-bfe0-49001bc06396",
+    "title": "Lung",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/d3bbb7e6-40df-4a4f-bfe0-49001bc06396.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "cbb0cb42-75d3-404f-bb92-da551c9ff67a",
+    "title": "Limb muscle",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/cbb0cb42-75d3-404f-bb92-da551c9ff67a.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "bf694f39-4342-4e75-aec0-d46db17f2036",
+    "title": "Spleen",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/bf694f39-4342-4e75-aec0-d46db17f2036.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "bdf0abdf-f1a5-4480-a30b-1e34eaee53bb",
+    "title": "Bladder",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/bdf0abdf-f1a5-4480-a30b-1e34eaee53bb.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "a9f69075-aa4f-44f4-bb6b-07504ed450de",
+    "title": "Blood",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/a9f69075-aa4f-44f4-bb6b-07504ed450de.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "a7b46d3a-c85e-4ec2-b5c0-04fa3e50d28b",
+    "title": "Small intestine",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/a7b46d3a-c85e-4ec2-b5c0-04fa3e50d28b.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "a3959096-c197-4dcf-8d25-8383481bd1c4",
+    "title": "Trachea",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/a3959096-c197-4dcf-8d25-8383481bd1c4.cxg/",
+    "extra": null
+  },
+  {
+    "source": "cellxgene",
+    "dataset_id": "a392ab34-9016-4f48-b45d-5b3a9cfa39fe",
+    "title": "LCA complete",
+    "description": "",
+    "url": "https://cellxgene.cziscience.com/e/a392ab34-9016-4f48-b45d-5b3a9cfa39fe.cxg/",
+    "extra": null
+  }
+]
+```
 > **CELLxGENE API timeouts**: if `h5adify search cellxgene ...` times out on your network, increase the read timeout and retries:
 
 ```bash
