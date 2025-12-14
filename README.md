@@ -128,6 +128,58 @@ h5adify manifest --root data/stereo_seq_mouse_embryo/ \
 ```
 It gives a `.csv` and `.jsonl` files, allowing to analyze the metadata of a large list of samples.
 
+### 6) Query the metadata of a list of h5ad files
+
+There are 2 .h5ad in this folder:
+
+```bash
+h5adify query --root data/stereo_seq_mouse_embryo/
+UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+[
+  {
+    "path": "data/stereo_seq_mouse_embryo/mouse_embryo_all_slices.h5ad",
+    "filename": "mouse_embryo_all_slices.h5ad",
+    "n_obs": 176711,
+    "n_vars": 1923,
+    "x_dtype": "float32",
+    "is_sparse": false,
+    "has_raw_counts": false,
+    "has_spatial": true,
+    "layers": "count,norm",
+    "obsm": "spatial,spatial_aligned,spatial_pair",
+    "source": "",
+    "dataset_id": "",
+    "species": "",
+    "technology": "",
+    "condition": "",
+    "disease": "",
+    "batch": "real",
+    "checksum_sha256": ""
+  },
+  {
+    "path": "data/stereo_seq_mouse_embryo/E16.5_E1S3_cell_bin.h5ad",
+    "filename": "E16.5_E1S3_cell_bin.h5ad",
+    "n_obs": 281377,
+    "n_vars": 28103,
+    "x_dtype": "float32",
+    "is_sparse": false,
+    "has_raw_counts": false,
+    "has_spatial": true,
+    "layers": "counts",
+    "obsm": "spatial",
+    "source": "",
+    "dataset_id": "",
+    "species": "",
+    "technology": "",
+    "condition": "",
+    "disease": "",
+    "batch": "",
+    "checksum_sha256": ""
+  }
+]
+```
+
 ### Standardized metadata (`.obs`)
 
 By default, h5adify tries to fill a standard set of .obs fields where possible, e.g.:
