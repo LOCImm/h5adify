@@ -153,4 +153,8 @@ h5adify download geo focuses on processed supplementary matrices (e.g., 10x MTX/
 If a GEO series only provides raw SRA, you’ll need a dedicated pipeline (SRA → FASTQ → CellRanger/STARsolo → matrix).
 h5adify will detect “raw-only” cases and explain what’s missing.
 
--- ## License MIT; update given the previous changes, and also adding something like this: <p align="center"> <img src="https://img.shields.io/badge/Python-3.10–3.11-informational.svg" /> <img src="https://img.shields.io/badge/PyTorch-2.x-important.svg" /> <img src="https://img.shields.io/badge/Scanpy-1.9+-brightgreen.svg" /> <img src="https://img.shields.io/badge/AnnData-.h5ad%20native-blueviolet.svg" /> <img src="https://img.shields.io/badge/Modality-spatial%20%2B%20single--cell-success.svg" /> </p>; but adapted to this particular library; and make the README file more visually appealing, provide a new complete version of this, considering these suggestions.
+---
+
+## License
+
+MIT
