@@ -15,6 +15,15 @@ extensions = [
     "sphinx.ext.napoleon",
 ]
 
+autodoc_mock_imports = [
+    "scanpy",
+    "h5py",
+    "torch",
+    "anndata",
+    "numpy",
+    "pandas",
+]
+
 # If you use Markdown docs
 source_suffix = {
     ".rst": "restructuredtext",
