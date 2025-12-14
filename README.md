@@ -179,6 +179,52 @@ UserWarning: Observation names are not unique. To make them unique, call `.obs_n
   }
 ]
 ```
+### 7) Inspect the metadata of h5ad
+
+```bash
+h5adify inspect --path data/stereo_seq_mouse_embryo/mouse_embryo_all_slices.h5ad 
+UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+
+{
+  "path": "/home/aalentorn/Téléchargements/data/stereo_seq_mouse_embryo/mouse_embryo_all_slices.h5ad",
+  "n_obs": 176711,
+  "n_vars": 1923,
+  "obs_cols": [
+    "n_genes_by_counts",
+    "log1p_n_genes_by_counts",
+    "total_counts",
+    "log1p_total_counts",
+    "annotation"
+  ],
+  "var_cols": [],
+  "layers": [
+    "count",
+    "norm"
+  ],
+  "obsm": [
+    "spatial",
+    "spatial_aligned",
+    "spatial_pair"
+  ],
+  "uns": [],
+  "has_spatial": true,
+  "has_raw_counts": false,
+  "x_dtype": "float32",
+  "x_is_sparse": false,
+  "missing_std_fields": {
+    "source": 1.0,
+    "dataset_id": 1.0,
+    "species": 1.0,
+    "technology": 1.0,
+    "sex": 1.0,
+    "age": 1.0,
+    "condition": 1.0,
+    "disease": 1.0,
+    "batch": 0.0
+  }
+}
+```
 
 ### Standardized metadata (`.obs`)
 
