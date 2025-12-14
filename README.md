@@ -113,6 +113,13 @@ h5adify batch \
   --outdir data/out \
   --merge-out data/out/merged_all.h5ad
 ```
+### 4) Batch multiple files from different databases
+```bash
+h5adify batch --ids geo:GSE229409 \
+                    cellxgene:e52ed1cc-d59f-4bf5-9716-8d81f14a89fd \
+              --outdir data/out \
+              --merge-out data/out/merged.h5ad
+```
 
 ### Standardized metadata (`.obs`)
 
