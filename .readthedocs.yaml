@@ -1,0 +1,23 @@
+# .readthedocs.yaml
+version: 2
+
+build:
+  os: ubuntu-24.04
+  tools:
+    # Use a version with very broad wheel availability (h5py/anndata/etc.)
+    python: "3.11"
+  apt_packages:
+    # Only needed if any dependency tries to compile (e.g., h5py) instead of using wheels.
+    - libhdf5-dev
+    - pkg-config
+
+sphinx:
+  configuration: docs/conf.py
+  fail_on_warning: false
+
+python:
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
