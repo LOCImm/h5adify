@@ -14,14 +14,14 @@ def main(argv: Optional[List[str]] = None) -> None:
     sub = parser.add_subparsers(dest="cmd", required=True)
 
     p_search = sub.add_parser("search", help="Search a data source")
-    p_search.add_argument("source", choices=["geo", "cellxgene", "scp", "sodb"])
+    p_search.add_argument("source", choices=["geo", "cellxgene", "scp", "sodb", "ucsc", "ema"])
     p_search.add_argument("--query", required=True)
     p_search.add_argument("--max-results", type=int, default=20)
 
     p_dl = sub.add_parser("download", help="Download + convert a dataset")
-    p_dl.add_argument("source", choices=["geo", "cellxgene", "scp", "sodb"])
+    p_dl.add_argument("source", choices=["geo", "cellxgene", "scp", "sodb", "ucsc", "ema"])
     p_dl.add_argument("--gse", help="GSE accession (geo)")
-    p_dl.add_argument("--id", help="Dataset identifier (cellxgene/scp/sodb)")
+    p_dl.add_argument("--id", help="Dataset identifier (cellxgene/scp/sodb/ucsc/ema)")
     p_dl.add_argument("--outdir", required=True)
     p_dl.add_argument("--no-merge-samples", action="store_true")
     p_dl.add_argument("--keep-work", action="store_true")
