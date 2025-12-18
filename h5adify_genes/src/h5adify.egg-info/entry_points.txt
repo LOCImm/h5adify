@@ -1,2 +1,0 @@
-[console_scripts]
-h5adify = h5adify.cli:main
