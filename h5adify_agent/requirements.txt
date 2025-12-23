@@ -1,0 +1,20 @@
+# h5adify v5.0.0 (FIXED) - Requirements
+# Core dependencies
+anndata>=0.8.0
+pandas>=1.3.0
+numpy>=1.21.0
+requests>=2.25.0
+PyQt6>=6.0.0
+click>=8.0.0
+tqdm>=4.60.0
+requests-cache>=0.9.0
+
+# Optional dependencies for AI features
+requests>=2.25.0
+
+# Development dependencies (optional)
+pytest>=6.0.0
+pytest-cov>=2.12.0
+black>=21.0.0
+flake8>=3.9.0
+mypy>=0.910

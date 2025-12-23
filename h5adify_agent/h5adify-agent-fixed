@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""
+h5adify-agent - Main command line entry point (Fixed Version)
+Enhanced terminal agent with working database implementations and robust imports
+"""
+
+import sys
+import os
+from pathlib import Path
+
+def main():
+    """Main entry point with robust import handling."""
+    
+    # Add the package directory to Python path
+    package_dir = Path(__file__).parent
+    sys.path.insert(0, str(package_dir))
+    
+    try:
+        # Try importing the fixed terminal agent
+        from h5adify.working_terminal_agent_fixed import main as agent_main
+        agent_main()
+    except ImportError as e:
+        print(f"❌ Import error: {e}")
+        print("\n🛠️ Troubleshooting:")
+        print("1. Make sure you're in the correct directory")
+        print("2. Check that all source files are present")
+        print("3. Install required dependencies if missing")
+        sys.exit(1)
+    except Exception as e:
+        print(f"❌ Error running agent: {e}")
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()
