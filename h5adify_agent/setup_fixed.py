@@ -48,8 +48,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/minimax/h5adify",
     project_urls={
-        "Bug Reports": "https://github.com/minimax/h5adify/issues",
-        "Source": "https://github.com/minimax/h5adify",
+        "Bug Reports": "",
+        "Source": "",
         "Documentation": "https://h5adify.readthedocs.io/",
     },
     packages=find_packages(),
