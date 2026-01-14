@@ -41,8 +41,8 @@ EXTRAS = {
 setup(
     name="h5adify-fixed",
     version="5.0.0",
-    author="MiniMax Agent",
-    author_email="agent@minimax.chat",
+    author="AA",
+    author_email="",
     description="Complete single-cell data processing toolkit with working database searches",
     long_description=long_description,
     long_description_content_type="text/markdown",
