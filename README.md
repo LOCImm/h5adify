@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/AnnData-.h5ad%20native-blueviolet.svg" />
   <img src="https://img.shields.io/badge/Scanpy-compatible-brightgreen.svg" />
   <img src="https://img.shields.io/badge/Modality-single--cell%20%2B%20spatial-success.svg" />
-  <img src="https://img.shields.io/badge/Sources-GEO%20%7C%20CELLxGENE%20%7C%20SODB%20%7C%20SCP%20%7C%20UCSC%20%7C%20EMA-orange.svg" />
+  <img src="https://img.shields.io/badge/Sources-GEO%20%7C%20CELLxGENE%20%7C%20%7C%20Zenodo%20%7C%20UCSC%20%7C%20EMA-orange.svg" />
 </p>
 
 `h5adify` is a small Python library + CLI to **search**, **download**, and **convert** public single-cell / spatial datasets into **standardized `.h5ad` (AnnData)** with consistent metadata fields (`.obs`).  
