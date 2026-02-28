@@ -24,11 +24,7 @@ It can also **merge** multiple datasets (even across sources) into a single `.h5
   Accepts **dataset UUIDs** or direct **`.h5ad` URLs**.  
   Search is best-effort (API schema can vary and may return different JSON shapes depending on endpoint/proxy).
 
-- **SODB (Spatial Omics DataBase)** via `pysodb` *(optional extra)*  
-  Downloads an AnnData directly (dataset- or experiment-level).  
-  `pysodb` is installed from GitHub as an extra dependency.
-
-- **Broad Single Cell Portal (SCP)**  
+- **Zenodo**  
   Best-effort download via public endpoints / direct file links (when available).
 
 - **UCSC Cell Browser (single-cell + some spatial datasets)**  
