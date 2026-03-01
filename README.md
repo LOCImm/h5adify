@@ -8,6 +8,24 @@
   <img src="https://img.shields.io/badge/Sources-GEO%20%7C%20CELLxGENE%20%7C%20%7C%20Zenodo%20%7C%20UCSC%20%7C%20EMA-orange.svg" />
 </p>
 
+<p align="center">
+  <a href="https://pypi.org/project/h5adify/">
+    <img src="https://img.shields.io/pypi/v/h5adify.svg" alt="PyPI version" />
+  </a>
+  <a href="https://pypi.org/project/h5adify/">
+    <img src="https://img.shields.io/pypi/pyversions/h5adify.svg" alt="Python versions" />
+  </a>
+  <a href="https://pypi.org/project/h5adify/">
+    <img src="https://img.shields.io/pypi/dm/h5adify.svg" alt="PyPI downloads" />
+  </a>
+  <a href="https://pypi.org/project/h5adify/">
+    <img src="https://img.shields.io/pypi/status/h5adify.svg" alt="PyPI status" />
+  </a>
+  <a href="https://pypi.org/project/h5adify/">
+    <img src="https://img.shields.io/pypi/l/h5adify.svg" alt="License" />
+  </a>
+</p>
+
 `h5adify` is a small Python library + CLI to **search**, **download**, and **convert** public single-cell / spatial datasets into **standardized `.h5ad` (AnnData)** with consistent metadata fields (`.obs`).  
 It can also **merge** multiple datasets (even across sources) into a single `.h5ad`.
 
