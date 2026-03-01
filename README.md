@@ -22,17 +22,7 @@
   <a href="https://github.com/locImm/h5adify/releases">
     <img alt="GitHub release" src="https://img.shields.io/github/v/release/locImm/h5adify">
   </a>
-
-  <!-- Docs (Read the Docs) -->
-  <a href="https://h5adify.readthedocs.io/en/latest/">
-    <img alt="Documentation Status" src="https://readthedocs.org/projects/h5adify/badge/?version=latest">
-  </a>
-
-  <!-- GitHub Actions tests (adjust workflow filename if needed) -->
-  <a href="https://github.com/locImm/h5adify/actions/workflows/tests.yml">
-    <img alt="tests" src="https://github.com/locImm/h5adify/actions/workflows/tests.yml/badge.svg">
-  </a>
-
+  
   <a href="LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg">
   </a>
