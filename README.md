@@ -26,6 +26,8 @@
   </a>
 </p>
 
+<img src="https://img.shields.io/badge/pip%20install-h5adify-blue.svg" alt="pip install h5adify" />
+
 `h5adify` is a small Python library + CLI to **search**, **download**, and **convert** public single-cell / spatial datasets into **standardized `.h5ad` (AnnData)** with consistent metadata fields (`.obs`).  
 It can also **merge** multiple datasets (even across sources) into a single `.h5ad`.
 
