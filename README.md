@@ -19,7 +19,7 @@
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/LOCImm/h5adify?style=flat">
   </a>
   <a href="https://github.com/LOCImm/h5adify/releases">
-    <img alt="GitHub release" src="https://img.shields.io/github/v/release/LOCImm/h5adify?include_prereleases=true">
+    <img alt="GitHub release" src="https://img.shields.io/github/v/release/LOCImm/h5adify>
   </a>
   <a href="LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg">
