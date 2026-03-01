@@ -57,7 +57,7 @@ pip install -e ".[docs]"  # docs build dependencies (optional)
 pip install -i https://test.pypi.org/simple/ \
   --extra-index-url https://pypi.org/simple \
   h5adify
-`
+```
 
 ## Quickstart (CLI)
 ### 1) Search datasets
