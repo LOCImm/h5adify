@@ -11,7 +11,9 @@
 <p align="center">
   <img src="https://img.shields.io/pypi/v/h5adify.svg" alt="PyPI version" />
   <img src="https://img.shields.io/badge/TestPyPI-available-orange.svg" alt="TestPyPI" />
+  <a href="https://github.com/LOCImm/h5adify">
   <img src="https://img.shields.io/github/stars/LOCImm/h5adify.svg?style=flat" alt="GitHub stars" />
+  </a>
   <img src="https://img.shields.io/github/v/release/LOCImm/h5adify.svg" alt="GitHub release" />
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
 </p>
