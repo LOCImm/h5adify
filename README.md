@@ -69,9 +69,6 @@ h5adify search geo --query "human brain spatial transcriptomics" --max-results 2
 # CELLxGENE
 h5adify search cellxgene --query "human brain spatial transcriptomics" --max-results 20
 
-# SODB (requires pysodb)
-h5adify search sodb --query "brain" --max-results 20
-
 # UCSC Cell Browser
 h5adify search ucsc --query "human hippocampus" --max-results 20
 
