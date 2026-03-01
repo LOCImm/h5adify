@@ -15,7 +15,12 @@
   <a href="https://test.pypi.org/project/h5adify/">
     <img src="https://img.shields.io/badge/TestPyPI-available-orange.svg" alt="TestPyPI" />
   </a>
-  <img src="https://img.shields.io/github/downloads/LOCImm/h5adify/total.svg" />
+  <a href="https://github.com/<ORG>/<REPO>">
+  <img src="https://img.shields.io/github/stars/LOCImm/h5adify.svg?style=flat" alt="GitHub stars" />
+  </a>
+  <a href="https://github.com/<ORG>/<REPO>/releases">
+  <img src="https://img.shields.io/github/v/release/LOCImm/h5adify.svg" alt="GitHub release" />
+  </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
   </a>
