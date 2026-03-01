@@ -15,16 +15,29 @@
   <a href="https://test.pypi.org/project/h5adify/">
     <img alt="TestPyPI" src="https://img.shields.io/badge/TestPyPI-available-orange.svg">
   </a>
-  <a href="https://github.com/LOCImm/h5adify/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/LOCImm/h5adify?style=flat">
+
+  <a href="https://github.com/locImm/h5adify/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/locImm/h5adify?style=flat">
   </a>
-  <a href="https://github.com/LOCImm/h5adify/releases">
-    <img alt="GitHub release" src="https://img.shields.io/github/v/release/LOCImm/h5adify">
+  <a href="https://github.com/locImm/h5adify/releases">
+    <img alt="GitHub release" src="https://img.shields.io/github/v/release/locImm/h5adify">
   </a>
+
+  <!-- Docs (Read the Docs) -->
+  <a href="https://h5adify.readthedocs.io/en/latest/">
+    <img alt="Documentation Status" src="https://readthedocs.org/projects/h5adify/badge/?version=latest">
+  </a>
+
+  <!-- GitHub Actions tests (adjust workflow filename if needed) -->
+  <a href="https://github.com/locImm/h5adify/actions/workflows/tests.yml">
+    <img alt="tests" src="https://github.com/locImm/h5adify/actions/workflows/tests.yml/badge.svg">
+  </a>
+
   <a href="LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg">
   </a>
 </p>
+
 
 `h5adify` is a small Python library + CLI to **search**, **download**, and **convert** public single-cell / spatial datasets into **standardized `.h5ad` (AnnData)** with consistent metadata fields (`.obs`).  
 It can also **merge** multiple datasets (even across sources) into a single `.h5ad`.
