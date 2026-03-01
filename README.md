@@ -17,7 +17,9 @@
   <a href="https://github.com/LOCImm/h5adify/releases">
   <img src="https://img.shields.io/github/v/release/LOCImm/h5adify.svg" alt="GitHub release" />
   </a>
+  <a href="LICENSE">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
+  </a>
 </p>
 
 `h5adify` is a small Python library + CLI to **search**, **download**, and **convert** public single-cell / spatial datasets into **standardized `.h5ad` (AnnData)** with consistent metadata fields (`.obs`).  
