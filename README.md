@@ -12,9 +12,6 @@
   <a href="https://pypi.org/project/h5adify/">
     <img src="https://img.shields.io/pypi/v/h5adify.svg" alt="PyPI version" />
   </a>
-  <a href="https://pypi.org/project/h5adify/">
-    <img src="https://img.shields.io/pypi/pyversions/h5adify.svg" alt="Python versions" />
-  </a>
   <a href="https://test.pypi.org/project/h5adify/">
     <img src="https://img.shields.io/badge/TestPyPI-available-orange.svg" alt="TestPyPI" />
   </a>
