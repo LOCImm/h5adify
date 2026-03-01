@@ -55,6 +55,12 @@ pip install -e ".[docs]"  # docs build dependencies (optional)
 ## Install (from pip)
 
 ```bash
+pip install h5adify
+``
+
+or
+
+```bash
 pip install -i https://test.pypi.org/simple/ \
   --extra-index-url https://pypi.org/simple \
   h5adify
