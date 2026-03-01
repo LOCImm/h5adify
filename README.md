@@ -15,12 +15,6 @@
   <a href="https://test.pypi.org/project/h5adify/">
     <img src="https://img.shields.io/badge/TestPyPI-available-orange.svg" alt="TestPyPI" />
   </a>
-  <a href="https://pypi.org/project/h5adify/">
-  <img src="https://img.shields.io/pypi/dm/h5adify.svg" alt="PyPI downloads/month" />
-  </a>
-  <a href="https://test.pypi.org/project/h5adify/">
-  <img src="https://img.shields.io/badge/TestPyPI-testing-orange.svg" alt="TestPyPI" />
-  </a>
   <a href="https://github.com/LOCImm/h5adify">
   <img src="https://img.shields.io/github/stars/LOCImm/h5adify.svg?style=flat" alt="GitHub stars" />
   </a>
