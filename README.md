@@ -56,7 +56,7 @@ pip install -e ".[docs]"  # docs build dependencies (optional)
 
 ```bash
 pip install h5adify
-``
+```
 
 or
 
