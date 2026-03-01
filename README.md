@@ -9,24 +9,19 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/pip%20install-h5adify-blue.svg" alt="pip install h5adify" />
   <a href="https://pypi.org/project/h5adify/">
     <img src="https://img.shields.io/pypi/v/h5adify.svg" alt="PyPI version" />
   </a>
   <a href="https://pypi.org/project/h5adify/">
     <img src="https://img.shields.io/pypi/pyversions/h5adify.svg" alt="Python versions" />
   </a>
-  <a href="https://pypi.org/project/h5adify/">
-    <img src="https://img.shields.io/pypi/dm/h5adify.svg" alt="PyPI downloads" />
+  <a href="https://test.pypi.org/project/h5adify/">
+    <img src="https://img.shields.io/badge/TestPyPI-available-orange.svg" alt="TestPyPI" />
   </a>
-  <a href="https://pypi.org/project/h5adify/">
-    <img src="https://img.shields.io/pypi/status/h5adify.svg" alt="PyPI status" />
-  </a>
-  <a href="https://pypi.org/project/h5adify/">
-    <img src="https://img.shields.io/pypi/l/h5adify.svg" alt="License" />
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
   </a>
 </p>
-
 
 `h5adify` is a small Python library + CLI to **search**, **download**, and **convert** public single-cell / spatial datasets into **standardized `.h5ad` (AnnData)** with consistent metadata fields (`.obs`).  
 It can also **merge** multiple datasets (even across sources) into a single `.h5ad`.
