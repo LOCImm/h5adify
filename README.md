@@ -15,6 +15,7 @@
   <a href="https://test.pypi.org/project/h5adify/">
     <img src="https://img.shields.io/badge/TestPyPI-available-orange.svg" alt="TestPyPI" />
   </a>
+  <img src="https://img.shields.io/github/downloads/LOCImm/h5adify/total.svg" />
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
   </a>
