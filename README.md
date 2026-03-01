@@ -10,13 +10,11 @@
 
 <p align="center">
 
-
 [![PyPI](https://img.shields.io/pypi/v/h5adify.svg)](https://pypi.org/project/h5adify/)
 [![TestPyPI](https://img.shields.io/badge/TestPyPI-available-orange.svg)](https://test.pypi.org/project/h5adify/)
 [![Stars](https://img.shields.io/github/stars/LOCImm/h5adify.svg)](https://github.com/LOCImm/h5adify/stargazers)
 [![Release](https://img.shields.io/github/v/release/LOCImm/h5adify.svg)](https://github.com/LOCImm/h5adify/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 
 </p>
 
