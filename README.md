@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Sources-GEO%20%7C%20CELLxGENE%20%7C%20%7C%20Zenodo%20%7C%20UCSC%20%7C%20EMA-orange.svg" />
 </p>
 
-[![bioRxiv](https://img.shields.io/badge/bioRxiv-2025.01.15.633281-BD2736?logo=biorxiv)](https://www.biorxiv.org/content/10.1101/2025.01.15.633281v1)
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-2025.01.15.633281-BD2736?logo=biorxiv)](https://www.biorxiv.org/content/10.64898/2026.02.28.708740v1)
 
 <p align="center">
   <a href="https://pypi.org/project/h5adify/">
