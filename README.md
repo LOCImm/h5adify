@@ -1,6 +1,9 @@
 # h5adify
+
 <p align="center">
-[![bioRxiv](https://img.shields.io/badge/bioRxiv-2026.02.28.708740-BD2736?logo=biorxiv)](https://www.biorxiv.org/content/10.64898/2026.02.28.708740v1)
+  <a href="https://www.biorxiv.org/content/10.64898/2026.02.28.708740v1">
+    <img src="https://img.shields.io/badge/bioRxiv-2026.02.28.708740v1-BD2736?logo=biorxiv" alt="bioRxiv"/>
+  </a>
 </p>
 
 <p align="center">
