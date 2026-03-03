@@ -94,6 +94,119 @@ pip install -i https://test.pypi.org/simple/ \
 ```
 
 ## Quickstart (CLI)
+
+```bash
+h5adify
+```
+```bash
+╔══════════════════════════════════════════════════════════════╗
+║           🧬 h5adify Terminal Agent v0.0.7 🧬                ║
+║      Complete Single-Cell Data Processing & Annotation       ║
+╚══════════════════════════════════════════════════════════════╝
+
+📁 Working Directory: /home/aalentorn/Projects/FoundationModel/h5adify_new
+📊 Database Sources:  geo, zenodo, ema, ucsc, cellxgene
+📦 AnnData:           ✅
+🧬 Gene Harmonization:✅
+🤖 4-Stage Annotation:✅
+🧩 Prompts:          ✅ (prompt list/use/...)
+🤖 Ollama LLM:        ✅ qwen2.5:3b (13 models available)
+
+────────────────────────────────────────────────────────────
+Type 'help' for all commands, 'llm' for AI model options
+────────────────────────────────────────────────────────────
+```
+
+```bash
+h5adify> help  
+```
+
+```bash
+╔══════════════════════════════════════════════════════════════╗
+║                    h5adify v0.0.7 HELP                       ║
+╚══════════════════════════════════════════════════════════════╝
+
+🔍 DATABASE SEARCH
+────────────────────────────────────────────────────────────────
+  search <source> <query> [--max N]
+      Sources: cellxgene, ema, geo, ucsc, zenodo
+      Example: search geo brain tumor spatial --max 30
+
+  open_link <number>
+      Open search result URL in browser
+
+💾 LOCAL FILE MANAGEMENT
+────────────────────────────────────────────────────────────────
+  list_local [directory] [-r/--recursive]
+      List .h5ad files with analysis
+      Example: list_local /data -r
+
+  inspect_local <file|number|directory> [-r]
+      Detailed file inspection
+
+🧬 GENE HARMONIZATION (pyorthogene features)
+────────────────────────────────────────────────────────────────
+  detect_species <file|number>
+      Detect species from gene IDs (Ensembl prefix, casing, etc.)
+      
+  harmonize <file|number> [--target auto|human|mouse] [--output file.h5ad]
+      Harmonize genes to target species (HUGO symbols)
+      Uses Ensembl orthology mapping
+      Default: --target auto (auto-detects species from gene names)
+      
+  deduplicate <file|number> [--how sum|mean|first] [--output file.h5ad]
+      Deduplicate genes by aggregating duplicate entries
+
+🔀 DATASET MERGING
+────────────────────────────────────────────────────────────────
+  analyze_overlap <file1> <file2> [file3...]
+      Analyze feature overlap across datasets
+      
+  find_common <file1> <file2> [file3...]
+      Find common features (genes) across datasets
+      
+  merge <file1> <file2> [file3...] [--output merged.h5ad] [--join inner|outer]
+      Merge datasets with common/all features
+      Options:
+        --features file.txt  Use specific feature list
+        --batch-key batch    Column name for batch labels
+        --harmonize          Harmonize genes before merging
+
+📝 4-STAGE ANNOTATION PIPELINE
+────────────────────────────────────────────────────────────────
+  annotate <file|number> [--doi DOI] [--no-verify]
+      Full 4-stage annotation:
+        Stage A: Deterministic extraction (h5ad signals)
+        Stage B: RAG retrieval 
+        Stage C: Constrained LLM extraction
+        Stage D: Verification pass
+      
+  annotate_doi <DOI>
+      Annotate from paper DOI only (no h5ad)
+      
+  extract_deterministic <file|number>
+      Run Stage A only (no LLM)
+
+🤖 LLM / AI MODELS
+────────────────────────────────────────────────────────────────
+  llm                 Show LLM status and available models
+  llm status          Check Ollama connection and model info
+  llm list            List all available models
+  llm select <model>  Select a model for annotation
+  llm test [prompt]   Test the selected model
+  llm refresh         Refresh model list from Ollama
+
+⚙️ SETTINGS
+────────────────────────────────────────────────────────────────
+  verbose         Toggle verbose output
+  json            Toggle JSON output format
+  help [command]  Show help
+  exit/quit/q     Exit
+
+📊 AVAILABLE SOURCES: cellxgene, ema, geo, ucsc, zenodo
+```
+
+
 ### 1) Search datasets
 
 ```bash
