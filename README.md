@@ -1,5 +1,7 @@
 # h5adify
 
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-2026.02.28.708740-BD2736?logo=biorxiv)](https://www.biorxiv.org/content/10.64898/2026.02.28.708740v1)
+
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%E2%80%933.11-informational.svg" />
   <img src="https://img.shields.io/badge/AnnData-.h5ad%20native-blueviolet.svg" />
@@ -7,8 +9,6 @@
   <img src="https://img.shields.io/badge/Modality-single--cell%20%2B%20spatial-success.svg" />
   <img src="https://img.shields.io/badge/Sources-GEO%20%7C%20CELLxGENE%20%7C%20%7C%20Zenodo%20%7C%20UCSC%20%7C%20EMA-orange.svg" />
 </p>
-
-[![bioRxiv](https://img.shields.io/badge/bioRxiv-2026.02.28.708740-BD2736?logo=biorxiv)](https://www.biorxiv.org/content/10.64898/2026.02.28.708740v1)
 
 <p align="center">
   <a href="https://pypi.org/project/h5adify/">
