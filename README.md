@@ -109,7 +109,7 @@ h5adify
 📦 AnnData:           ✅
 🧬 Gene Harmonization:✅
 🤖 4-Stage Annotation:✅
-🧩 Prompts:          ✅ (prompt list/use/...)
+🧩 Prompts:           ✅ (prompt list/use/...)
 🤖 Ollama LLM:        ✅ qwen2.5:3b (13 models available)
 
 ────────────────────────────────────────────────────────────
