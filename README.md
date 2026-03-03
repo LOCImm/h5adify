@@ -1,6 +1,7 @@
 # h5adify
-
+<p align="center">
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-2026.02.28.708740-BD2736?logo=biorxiv)](https://www.biorxiv.org/content/10.64898/2026.02.28.708740v1)
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%E2%80%933.11-informational.svg" />
