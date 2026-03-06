@@ -104,7 +104,7 @@ h5adify
 ║      Complete Single-Cell Data Processing & Annotation       ║
 ╚══════════════════════════════════════════════════════════════╝
 
-📁 Working Directory: /home/aalentorn/Projects/FoundationModel/h5adify_new
+📁 Working Directory: h5adify_new
 📊 Database Sources:  geo, zenodo, ema, ucsc, cellxgene
 📦 AnnData:           ✅
 🧬 Gene Harmonization:✅
